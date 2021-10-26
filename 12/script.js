@@ -1,3 +1,5 @@
+// How to run? 'node script <number>' (eg 1234)
+
 const rows = {
   1: '',
   2: '',
