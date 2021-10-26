@@ -1,1329 +1,0 @@
-Script started on Tue Oct 26 15:00:43 2021
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004h[?2004l
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[31m➜ [0m[31m[39m[1m[0m[K[?2004hll[90msof -i tcp:3003[39m[15Dl[39ms[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[?2004l
-script.js	typescript
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnn[90mpm run dev[39m[10Dn[39mo[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D[90mde '/Users/alexsatur/rw/zenith-microservice-client/node_modules/.bin/[90mj[90mest' '/Users/alexsatur/rw/zenith-microservice-client/src/actions/positio[90mn[90mContact/updatePositionContact.test.ts' -t 'updatePositionContact should [90mm[90make existing contacts is_primary false when a new is_primary is updated'[39m [K[4A[4C[39md[4B[K[4A[5C[39me[39m [39ms[K[1B[K[1B[K[1B[K[1B[K[4A[8Ccript[?2004l[1Bprocess {
-  version: [32m'v14.17.6'[39m,
-  versions: {
-    node: [32m'14.17.6'[39m,
-    v8: [32m'8.4.371.23-node.76'[39m,
-    uv: [32m'1.41.0'[39m,
-    zlib: [32m'1.2.11'[39m,
-    brotli: [32m'1.0.9'[39m,
-    ares: [32m'1.17.2'[39m,
-    modules: [32m'83'[39m,
-    nghttp2: [32m'1.42.0'[39m,
-    napi: [32m'8'[39m,
-    llhttp: [32m'2.1.3'[39m,
-    openssl: [32m'1.1.1l'[39m,
-    cldr: [32m'39.0'[39m,
-    icu: [32m'69.1'[39m,
-    tz: [32m'2021a'[39m,
-    unicode: [32m'13.0'[39m
-  },
-  arch: [32m'x64'[39m,
-  platform: [32m'darwin'[39m,
-  release: {
-    name: [32m'node'[39m,
-    lts: [32m'Fermium'[39m,
-    sourceUrl: [32m'https://nodejs.org/download/release/v14.17.6/node-v14.17.6.tar.gz'[39m,
-    headersUrl: [32m'https://nodejs.org/download/release/v14.17.6/node-v14.17.6-headers.tar.gz'[39m
-  },
-  _rawDebug: [36m[Function: _rawDebug][39m,
-  moduleLoadList: [
-    [32m'Internal Binding native_module'[39m,
-    [32m'Internal Binding errors'[39m,
-    [32m'NativeModule internal/errors'[39m,
-    [32m'Internal Binding config'[39m,
-    [32m'Internal Binding constants'[39m,
-    [32m'Internal Binding util'[39m,
-    [32m'Internal Binding types'[39m,
-    [32m'NativeModule internal/util'[39m,
-    [32m'NativeModule internal/util/types'[39m,
-    [32m'NativeModule internal/assert'[39m,
-    [32m'Internal Binding icu'[39m,
-    [32m'NativeModule internal/util/inspect'[39m,
-    [32m'NativeModule internal/validators'[39m,
-    [32m'NativeModule events'[39m,
-    [32m'Internal Binding buffer'[39m,
-    [32m'Internal Binding string_decoder'[39m,
-    [32m'NativeModule internal/buffer'[39m,
-    [32m'NativeModule buffer'[39m,
-    [32m'Internal Binding symbols'[39m,
-    [32m'Internal Binding messaging'[39m,
-    [32m'NativeModule internal/worker/js_transferable'[39m,
-    [32m'NativeModule internal/process/per_thread'[39m,
-    [32m'Internal Binding process_methods'[39m,
-    [32m'Internal Binding credentials'[39m,
-    [32m'Internal Binding async_wrap'[39m,
-    [32m'Internal Binding task_queue'[39m,
-    [32m'NativeModule internal/async_hooks'[39m,
-    [32m'NativeModule internal/process/promises'[39m,
-    [32m'NativeModule internal/fixed_queue'[39m,
-    [32m'NativeModule async_hooks'[39m,
-    [32m'NativeModule internal/process/task_queues'[39m,
-    [32m'Internal Binding trace_events'[39m,
-    [32m'NativeModule internal/constants'[39m,
-    [32m'NativeModule internal/console/constructor'[39m,
-    [32m'NativeModule internal/console/global'[39m,
-    [32m'NativeModule internal/util/inspector'[39m,
-    [32m'Internal Binding inspector'[39m,
-    [32m'NativeModule internal/querystring'[39m,
-    [32m'NativeModule path'[39m,
-    [32m'Internal Binding url'[39m,
-    [32m'NativeModule internal/url'[39m,
-    [32m'NativeModule internal/encoding'[39m,
-    [32m'Internal Binding timers'[39m,
-    [32m'NativeModule internal/linkedlist'[39m,
-    [32m'NativeModule internal/priority_queue'[39m,
-    [32m'NativeModule internal/util/debuglog'[39m,
-    [32m'NativeModule internal/timers'[39m,
-    [32m'NativeModule timers'[39m,
-    [32m'NativeModule internal/process/execution'[39m,
-    [32m'NativeModule internal/process/warning'[39m,
-    [32m'NativeModule internal/process/signal'[39m,
-    [32m'Internal Binding options'[39m,
-    [32m'NativeModule internal/options'[39m,
-    [32m'NativeModule internal/bootstrap/pre_execution'[39m,
-    [32m'NativeModule internal/inspector_async_hook'[39m,
-    [32m'Internal Binding report'[39m,
-    [32m'NativeModule internal/process/report'[39m,
-    [32m'Internal Binding fs'[39m,
-    [32m'NativeModule internal/fs/utils'[39m,
-    [32m'Internal Binding fs_dir'[39m,
-    [32m'NativeModule internal/fs/dir'[39m,
-    [32m'NativeModule fs'[39m,
-    [32m'NativeModule internal/util/iterable_weak_map'[39m,
-    [32m'NativeModule internal/modules/cjs/helpers'[39m,
-    [32m'NativeModule internal/source_map/source_map_cache'[39m,
-    [32m'Internal Binding contextify'[39m,
-    [32m'NativeModule vm'[39m,
-    [32m'NativeModule internal/idna'[39m,
-    [32m'NativeModule url'[39m,
-    [32m'NativeModule internal/modules/package_json_reader'[39m,
-    [32m'Internal Binding module_wrap'[39m,
-    [32m'NativeModule internal/modules/esm/module_job'[39m,
-    [32m'NativeModule internal/modules/esm/module_map'[39m,
-    [32m'NativeModule internal/modules/esm/resolve'[39m,
-    [32m'NativeModule internal/modules/esm/get_format'[39m,
-    [32m'NativeModule internal/fs/rimraf'[39m,
-    [32m'NativeModule internal/fs/promises'[39m,
-    [32m'NativeModule internal/modules/esm/get_source'[39m,
-    [32m'NativeModule internal/modules/esm/transform_source'[39m,
-    [32m'NativeModule internal/modules/esm/create_dynamic_module'[39m,
-    [32m'NativeModule internal/modules/esm/translators'[39m,
-    [32m'NativeModule internal/modules/esm/loader'[39m,
-    [32m'NativeModule internal/vm/module'[39m,
-    [32m'NativeModule internal/process/esm_loader'[39m,
-    [32m'NativeModule internal/modules/cjs/loader'[39m,
-    [32m'NativeModule internal/modules/run_main'[39m,
-    [32m'NativeModule internal/streams/destroy'[39m,
-    [32m'NativeModule internal/streams/pipeline'[39m,
-    [32m'NativeModule internal/streams/end-of-stream'[39m,
-    [32m'NativeModule internal/streams/legacy'[39m,
-    [32m'NativeModule internal/streams/buffer_list'[39m,
-    [32m'NativeModule internal/streams/state'[39m,
-    [32m'NativeModule internal/streams/readable'[39m,
-    [32m'NativeModule internal/streams/writable'[39m,
-    [32m'NativeModule internal/streams/duplex'[39m,
-    [32m'NativeModule internal/streams/transform'[39m,
-    [32m'NativeModule internal/streams/passthrough'[39m,
-    [32m'NativeModule stream'[39m,
-    [32m'NativeModule internal/net'[39m,
-    [32m'Internal Binding uv'[39m,
-    ... 11 more items
-  ],
-  binding: [36m[Function: binding][39m,
-  _linkedBinding: [36m[Function: _linkedBinding][39m,
-  _events: [Object: null prototype] {
-    newListener: [36m[Function: startListeningIfSignal][39m,
-    removeListener: [36m[Function: stopListeningIfSignal][39m,
-    warning: [36m[Function: onWarning][39m,
-    SIGWINCH: [36m[Function (anonymous)][39m
-  },
-  _eventsCount: [33m4[39m,
-  _maxListeners: [90mundefined[39m,
-  domain: [1mnull[22m,
-  _exiting: [33mfalse[39m,
-  config: {
-    target_defaults: {
-      cflags: [],
-      default_configuration: [32m'Release'[39m,
-      defines: [],
-      include_dirs: [],
-      libraries: []
-    },
-    variables: {
-      asan: [33m0[39m,
-      build_v8_with_gn: [33mfalse[39m,
-      coverage: [33mfalse[39m,
-      dcheck_always_on: [33m0[39m,
-      debug_nghttp2: [33mfalse[39m,
-      debug_node: [33mfalse[39m,
-      enable_lto: [33mfalse[39m,
-      enable_pgo_generate: [33mfalse[39m,
-      enable_pgo_use: [33mfalse[39m,
-      error_on_warn: [33mfalse[39m,
-      force_dynamic_crt: [33m0[39m,
-      host_arch: [32m'x64'[39m,
-      icu_data_in: [32m'../../deps/icu-tmp/icudt69l.dat'[39m,
-      icu_endianness: [32m'l'[39m,
-      icu_gyp_path: [32m'tools/icu/icu-generic.gyp'[39m,
-      icu_path: [32m'deps/icu-small'[39m,
-      icu_small: [33mfalse[39m,
-      icu_ver_major: [32m'69'[39m,
-      is_debug: [33m0[39m,
-      llvm_version: [32m'11.0'[39m,
-      napi_build_version: [32m'8'[39m,
-      node_byteorder: [32m'little'[39m,
-      node_debug_lib: [33mfalse[39m,
-      node_enable_d8: [33mfalse[39m,
-      node_install_npm: [33mtrue[39m,
-      node_module_version: [33m83[39m,
-      node_no_browser_globals: [33mfalse[39m,
-      node_prefix: [32m'/'[39m,
-      node_release_urlbase: [32m'https://nodejs.org/download/release/'[39m,
-      node_shared: [33mfalse[39m,
-      node_shared_brotli: [33mfalse[39m,
-      node_shared_cares: [33mfalse[39m,
-      node_shared_http_parser: [33mfalse[39m,
-      node_shared_libuv: [33mfalse[39m,
-      node_shared_nghttp2: [33mfalse[39m,
-      node_shared_openssl: [33mfalse[39m,
-      node_shared_zlib: [33mfalse[39m,
-      node_tag: [32m''[39m,
-      node_target_type: [32m'executable'[39m,
-      node_use_bundled_v8: [33mtrue[39m,
-      node_use_dtrace: [33mtrue[39m,
-      node_use_etw: [33mfalse[39m,
-      node_use_node_code_cache: [33mtrue[39m,
-      node_use_node_snapshot: [33mtrue[39m,
-      node_use_openssl: [33mtrue[39m,
-      node_use_v8_platform: [33mtrue[39m,
-      node_with_ltcg: [33mfalse[39m,
-      node_without_node_options: [33mfalse[39m,
-      openssl_fips: [32m''[39m,
-      openssl_is_fips: [33mfalse[39m,
-      ossfuzz: [33mfalse[39m,
-      shlib_suffix: [32m'83.dylib'[39m,
-      target_arch: [32m'x64'[39m,
-      v8_enable_31bit_smis_on_64bit_arch: [33m0[39m,
-      v8_enable_gdbjit: [33m0[39m,
-      v8_enable_i18n_support: [33m1[39m,
-      v8_enable_inspector: [33m1[39m,
-      v8_enable_lite_mode: [33m0[39m,
-      v8_enable_object_print: [33m1[39m,
-      v8_enable_pointer_compression: [33m0[39m,
-      v8_no_strict_aliasing: [33m1[39m,
-      v8_optimized_debug: [33m1[39m,
-      v8_promise_internal_field_count: [33m1[39m,
-      v8_random_seed: [33m0[39m,
-      v8_trace_maps: [33m0[39m,
-      v8_use_siphash: [33m1[39m,
-      want_separate_host_toolset: [33m0[39m,
-      xcode_version: [32m'11.0'[39m
-    }
-  },
-  dlopen: [36m[Function: dlopen][39m,
-  uptime: [36m[Function: uptime][39m,
-  _getActiveRequests: [36m[Function: _getActiveRequests][39m,
-  _getActiveHandles: [36m[Function: _getActiveHandles][39m,
-  reallyExit: [36m[Function: reallyExit][39m,
-  _kill: [36m[Function: _kill][39m,
-  hrtime: [Function: hrtime] { bigint: [36m[Function: hrtimeBigInt][39m },
-  cpuUsage: [36m[Function: cpuUsage][39m,
-  resourceUsage: [36m[Function: resourceUsage][39m,
-  memoryUsage: [36m[Function: memoryUsage][39m,
-  kill: [36m[Function: kill][39m,
-  exit: [36m[Function: exit][39m,
-  openStdin: [36m[Function (anonymous)][39m,
-  getuid: [36m[Function: getuid][39m,
-  geteuid: [36m[Function: geteuid][39m,
-  getgid: [36m[Function: getgid][39m,
-  getegid: [36m[Function: getegid][39m,
-  getgroups: [36m[Function: getgroups][39m,
-  allowedNodeEnvironmentFlags: [36m[Getter/Setter][39m,
-  assert: [36m[Function: deprecated][39m,
-  features: {
-    inspector: [33mtrue[39m,
-    debug: [33mfalse[39m,
-    uv: [33mtrue[39m,
-    ipv6: [33mtrue[39m,
-    tls_alpn: [33mtrue[39m,
-    tls_sni: [33mtrue[39m,
-    tls_ocsp: [33mtrue[39m,
-    tls: [33mtrue[39m,
-    cached_builtins: [33mtrue[39m
-  },
-  _fatalException: [36m[Function (anonymous)][39m,
-  setUncaughtExceptionCaptureCallback: [36m[Function: setUncaughtExceptionCaptureCallback][39m,
-  hasUncaughtExceptionCaptureCallback: [36m[Function: hasUncaughtExceptionCaptureCallback][39m,
-  emitWarning: [36m[Function: emitWarning][39m,
-  nextTick: [36m[Function: nextTick][39m,
-  _tickCallback: [36m[Function: runNextTicks][39m,
-  _debugProcess: [36m[Function: _debugProcess][39m,
-  _debugEnd: [36m[Function: _debugEnd][39m,
-  _startProfilerIdleNotifier: [36m[Function (anonymous)][39m,
-  _stopProfilerIdleNotifier: [36m[Function (anonymous)][39m,
-  stdout: [36m[Getter][39m,
-  stdin: [36m[Getter][39m,
-  stderr: [36m[Getter][39m,
-  abort: [36m[Function: abort][39m,
-  umask: [36m[Function: wrappedUmask][39m,
-  chdir: [36m[Function: wrappedChdir][39m,
-  cwd: [36m[Function: wrappedCwd][39m,
-  initgroups: [36m[Function: initgroups][39m,
-  setgroups: [36m[Function: setgroups][39m,
-  setegid: [36m[Function (anonymous)][39m,
-  seteuid: [36m[Function (anonymous)][39m,
-  setgid: [36m[Function (anonymous)][39m,
-  setuid: [36m[Function (anonymous)][39m,
-  env: {
-    TMPDIR: [32m'/var/folders/8c/947r6_k96s7cp7zxpwjs1x3h0000gp/T/'[39m,
-    __CFBundleIdentifier: [32m'com.apple.Terminal'[39m,
-    XPC_FLAGS: [32m'0x0'[39m,
-    TERM: [32m'xterm-256color'[39m,
-    SSH_AUTH_SOCK: [32m'/private/tmp/com.apple.launchd.3MK0kxoCqq/Listeners'[39m,
-    XPC_SERVICE_NAME: [32m'0'[39m,
-    TERM_PROGRAM: [32m'Apple_Terminal'[39m,
-    TERM_PROGRAM_VERSION: [32m'440'[39m,
-    TERM_SESSION_ID: [32m'2173CE04-8F3D-4AC1-93BC-36D600115CC9'[39m,
-    SHELL: [32m'/bin/zsh'[39m,
-    HOME: [32m'/Users/alexsatur'[39m,
-    LOGNAME: [32m'alexsatur'[39m,
-    USER: [32m'alexsatur'[39m,
-    PATH: [32m'/usr/local/opt/node@14/bin:/Users/alexsatur/.jenv/shims:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/node@14/bin:/Users/alexsatur/.nvm/versions/node/v14.17.6/bin:/Users/alexsatur/.jenv/shims:/usr/local/opt/gnu-sed/libexec/gnubin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/atom:/usr/local/mongodb/bin:/usr/local/opt/gnu-sed/libexec/gnubin:/Library/Apple/usr/bin:/Users/alexsatur/kafka_2.13-2.8.0/bin:/Users/alexsatur/bin:/Users/alexsatur/kafka_2.13-2.8.0/bin:/Users/alexsatur/bin'[39m,
-    SHLVL: [32m'2'[39m,
-    PWD: [32m'/Users/alexsatur/desktop/coding-challenges/12'[39m,
-    OLDPWD: [32m'/Users/alexsatur/desktop/coding-challenges/12'[39m,
-    DOCKER_FORMAT: [32m'\\nID\\t{{.ID}}\\nIMAGE\\t{{.Image}}\\nCOMMAND\\t{{.Command}}\\nCREATED\\t{{.RunningFor}}\\nSTATUS\\t{{.Status}}\\nPORTS\\t{{.Ports}}\\nNAMES\\t{{.Names}}\\n'[39m,
-    GITHUB_ACTOR: [32m'alexatand'[39m,
-    GITHUB_TOKEN: [32m'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'[39m,
-    NPM_TOKEN: [32m'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'[39m,
-    SPACESHIP_VERSION: [32m'3.14.1'[39m,
-    SPACESHIP_ROOT: [32m'/usr/local/Cellar/spaceship/3.14.1/libexec'[39m,
-    JENV_SHELL: [32m'zsh'[39m,
-    JENV_LOADED: [32m'1'[39m,
-    NVM_DIR: [32m'/Users/alexsatur/.nvm'[39m,
-    NVM_CD_FLAGS: [32m'-q'[39m,
-    NVM_BIN: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/bin'[39m,
-    NVM_INC: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/include/node'[39m,
-    SCRIPT: [32m'typescript'[39m,
-    LANG: [32m'en_GB.UTF-8'[39m,
-    _: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/bin/node'[39m,
-    __CF_USER_TEXT_ENCODING: [32m'0x1F6:0:2'[39m
-  },
-  title: [32m'node'[39m,
-  argv: [
-    [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/bin/node'[39m,
-    [32m'/Users/alexsatur/Desktop/coding-challenges/12/script'[39m
-  ],
-  execArgv: [],
-  pid: [33m80915[39m,
-  ppid: [33m80052[39m,
-  execPath: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/bin/node'[39m,
-  debugPort: [33m9229[39m,
-  argv0: [32m'node'[39m,
-  _preload_modules: [],
-  mainModule: Module {
-    id: [32m'.'[39m,
-    path: [32m'/Users/alexsatur/Desktop/coding-challenges/12'[39m,
-    exports: {},
-    parent: [1mnull[22m,
-    filename: [32m'/Users/alexsatur/Desktop/coding-challenges/12/script.js'[39m,
-    loaded: [33mfalse[39m,
-    children: [],
-    paths: [
-      [32m'/Users/alexsatur/Desktop/coding-challenges/12/node_modules'[39m,
-      [32m'/Users/alexsatur/Desktop/coding-challenges/node_modules'[39m,
-      [32m'/Users/alexsatur/Desktop/node_modules'[39m,
-      [32m'/Users/alexsatur/node_modules'[39m,
-      [32m'/Users/node_modules'[39m,
-      [32m'/node_modules'[39m
-    ]
-  },
-  [[32mSymbol(kCapture)[39m]: [33mfalse[39m
-}
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script alex[?2004l
-process {
-  version: [32m'v14.17.6'[39m,
-  versions: {
-    node: [32m'14.17.6'[39m,
-    v8: [32m'8.4.371.23-node.76'[39m,
-    uv: [32m'1.41.0'[39m,
-    zlib: [32m'1.2.11'[39m,
-    brotli: [32m'1.0.9'[39m,
-    ares: [32m'1.17.2'[39m,
-    modules: [32m'83'[39m,
-    nghttp2: [32m'1.42.0'[39m,
-    napi: [32m'8'[39m,
-    llhttp: [32m'2.1.3'[39m,
-    openssl: [32m'1.1.1l'[39m,
-    cldr: [32m'39.0'[39m,
-    icu: [32m'69.1'[39m,
-    tz: [32m'2021a'[39m,
-    unicode: [32m'13.0'[39m
-  },
-  arch: [32m'x64'[39m,
-  platform: [32m'darwin'[39m,
-  release: {
-    name: [32m'node'[39m,
-    lts: [32m'Fermium'[39m,
-    sourceUrl: [32m'https://nodejs.org/download/release/v14.17.6/node-v14.17.6.tar.gz'[39m,
-    headersUrl: [32m'https://nodejs.org/download/release/v14.17.6/node-v14.17.6-headers.tar.gz'[39m
-  },
-  _rawDebug: [36m[Function: _rawDebug][39m,
-  moduleLoadList: [
-    [32m'Internal Binding native_module'[39m,
-    [32m'Internal Binding errors'[39m,
-    [32m'NativeModule internal/errors'[39m,
-    [32m'Internal Binding config'[39m,
-    [32m'Internal Binding constants'[39m,
-    [32m'Internal Binding util'[39m,
-    [32m'Internal Binding types'[39m,
-    [32m'NativeModule internal/util'[39m,
-    [32m'NativeModule internal/util/types'[39m,
-    [32m'NativeModule internal/assert'[39m,
-    [32m'Internal Binding icu'[39m,
-    [32m'NativeModule internal/util/inspect'[39m,
-    [32m'NativeModule internal/validators'[39m,
-    [32m'NativeModule events'[39m,
-    [32m'Internal Binding buffer'[39m,
-    [32m'Internal Binding string_decoder'[39m,
-    [32m'NativeModule internal/buffer'[39m,
-    [32m'NativeModule buffer'[39m,
-    [32m'Internal Binding symbols'[39m,
-    [32m'Internal Binding messaging'[39m,
-    [32m'NativeModule internal/worker/js_transferable'[39m,
-    [32m'NativeModule internal/process/per_thread'[39m,
-    [32m'Internal Binding process_methods'[39m,
-    [32m'Internal Binding credentials'[39m,
-    [32m'Internal Binding async_wrap'[39m,
-    [32m'Internal Binding task_queue'[39m,
-    [32m'NativeModule internal/async_hooks'[39m,
-    [32m'NativeModule internal/process/promises'[39m,
-    [32m'NativeModule internal/fixed_queue'[39m,
-    [32m'NativeModule async_hooks'[39m,
-    [32m'NativeModule internal/process/task_queues'[39m,
-    [32m'Internal Binding trace_events'[39m,
-    [32m'NativeModule internal/constants'[39m,
-    [32m'NativeModule internal/console/constructor'[39m,
-    [32m'NativeModule internal/console/global'[39m,
-    [32m'NativeModule internal/util/inspector'[39m,
-    [32m'Internal Binding inspector'[39m,
-    [32m'NativeModule internal/querystring'[39m,
-    [32m'NativeModule path'[39m,
-    [32m'Internal Binding url'[39m,
-    [32m'NativeModule internal/url'[39m,
-    [32m'NativeModule internal/encoding'[39m,
-    [32m'Internal Binding timers'[39m,
-    [32m'NativeModule internal/linkedlist'[39m,
-    [32m'NativeModule internal/priority_queue'[39m,
-    [32m'NativeModule internal/util/debuglog'[39m,
-    [32m'NativeModule internal/timers'[39m,
-    [32m'NativeModule timers'[39m,
-    [32m'NativeModule internal/process/execution'[39m,
-    [32m'NativeModule internal/process/warning'[39m,
-    [32m'NativeModule internal/process/signal'[39m,
-    [32m'Internal Binding options'[39m,
-    [32m'NativeModule internal/options'[39m,
-    [32m'NativeModule internal/bootstrap/pre_execution'[39m,
-    [32m'NativeModule internal/inspector_async_hook'[39m,
-    [32m'Internal Binding report'[39m,
-    [32m'NativeModule internal/process/report'[39m,
-    [32m'Internal Binding fs'[39m,
-    [32m'NativeModule internal/fs/utils'[39m,
-    [32m'Internal Binding fs_dir'[39m,
-    [32m'NativeModule internal/fs/dir'[39m,
-    [32m'NativeModule fs'[39m,
-    [32m'NativeModule internal/util/iterable_weak_map'[39m,
-    [32m'NativeModule internal/modules/cjs/helpers'[39m,
-    [32m'NativeModule internal/source_map/source_map_cache'[39m,
-    [32m'Internal Binding contextify'[39m,
-    [32m'NativeModule vm'[39m,
-    [32m'NativeModule internal/idna'[39m,
-    [32m'NativeModule url'[39m,
-    [32m'NativeModule internal/modules/package_json_reader'[39m,
-    [32m'Internal Binding module_wrap'[39m,
-    [32m'NativeModule internal/modules/esm/module_job'[39m,
-    [32m'NativeModule internal/modules/esm/module_map'[39m,
-    [32m'NativeModule internal/modules/esm/resolve'[39m,
-    [32m'NativeModule internal/modules/esm/get_format'[39m,
-    [32m'NativeModule internal/fs/rimraf'[39m,
-    [32m'NativeModule internal/fs/promises'[39m,
-    [32m'NativeModule internal/modules/esm/get_source'[39m,
-    [32m'NativeModule internal/modules/esm/transform_source'[39m,
-    [32m'NativeModule internal/modules/esm/create_dynamic_module'[39m,
-    [32m'NativeModule internal/modules/esm/translators'[39m,
-    [32m'NativeModule internal/modules/esm/loader'[39m,
-    [32m'NativeModule internal/vm/module'[39m,
-    [32m'NativeModule internal/process/esm_loader'[39m,
-    [32m'NativeModule internal/modules/cjs/loader'[39m,
-    [32m'NativeModule internal/modules/run_main'[39m,
-    [32m'NativeModule internal/streams/destroy'[39m,
-    [32m'NativeModule internal/streams/pipeline'[39m,
-    [32m'NativeModule internal/streams/end-of-stream'[39m,
-    [32m'NativeModule internal/streams/legacy'[39m,
-    [32m'NativeModule internal/streams/buffer_list'[39m,
-    [32m'NativeModule internal/streams/state'[39m,
-    [32m'NativeModule internal/streams/readable'[39m,
-    [32m'NativeModule internal/streams/writable'[39m,
-    [32m'NativeModule internal/streams/duplex'[39m,
-    [32m'NativeModule internal/streams/transform'[39m,
-    [32m'NativeModule internal/streams/passthrough'[39m,
-    [32m'NativeModule stream'[39m,
-    [32m'NativeModule internal/net'[39m,
-    [32m'Internal Binding uv'[39m,
-    ... 11 more items
-  ],
-  binding: [36m[Function: binding][39m,
-  _linkedBinding: [36m[Function: _linkedBinding][39m,
-  _events: [Object: null prototype] {
-    newListener: [36m[Function: startListeningIfSignal][39m,
-    removeListener: [36m[Function: stopListeningIfSignal][39m,
-    warning: [36m[Function: onWarning][39m,
-    SIGWINCH: [36m[Function (anonymous)][39m
-  },
-  _eventsCount: [33m4[39m,
-  _maxListeners: [90mundefined[39m,
-  domain: [1mnull[22m,
-  _exiting: [33mfalse[39m,
-  config: {
-    target_defaults: {
-      cflags: [],
-      default_configuration: [32m'Release'[39m,
-      defines: [],
-      include_dirs: [],
-      libraries: []
-    },
-    variables: {
-      asan: [33m0[39m,
-      build_v8_with_gn: [33mfalse[39m,
-      coverage: [33mfalse[39m,
-      dcheck_always_on: [33m0[39m,
-      debug_nghttp2: [33mfalse[39m,
-      debug_node: [33mfalse[39m,
-      enable_lto: [33mfalse[39m,
-      enable_pgo_generate: [33mfalse[39m,
-      enable_pgo_use: [33mfalse[39m,
-      error_on_warn: [33mfalse[39m,
-      force_dynamic_crt: [33m0[39m,
-      host_arch: [32m'x64'[39m,
-      icu_data_in: [32m'../../deps/icu-tmp/icudt69l.dat'[39m,
-      icu_endianness: [32m'l'[39m,
-      icu_gyp_path: [32m'tools/icu/icu-generic.gyp'[39m,
-      icu_path: [32m'deps/icu-small'[39m,
-      icu_small: [33mfalse[39m,
-      icu_ver_major: [32m'69'[39m,
-      is_debug: [33m0[39m,
-      llvm_version: [32m'11.0'[39m,
-      napi_build_version: [32m'8'[39m,
-      node_byteorder: [32m'little'[39m,
-      node_debug_lib: [33mfalse[39m,
-      node_enable_d8: [33mfalse[39m,
-      node_install_npm: [33mtrue[39m,
-      node_module_version: [33m83[39m,
-      node_no_browser_globals: [33mfalse[39m,
-      node_prefix: [32m'/'[39m,
-      node_release_urlbase: [32m'https://nodejs.org/download/release/'[39m,
-      node_shared: [33mfalse[39m,
-      node_shared_brotli: [33mfalse[39m,
-      node_shared_cares: [33mfalse[39m,
-      node_shared_http_parser: [33mfalse[39m,
-      node_shared_libuv: [33mfalse[39m,
-      node_shared_nghttp2: [33mfalse[39m,
-      node_shared_openssl: [33mfalse[39m,
-      node_shared_zlib: [33mfalse[39m,
-      node_tag: [32m''[39m,
-      node_target_type: [32m'executable'[39m,
-      node_use_bundled_v8: [33mtrue[39m,
-      node_use_dtrace: [33mtrue[39m,
-      node_use_etw: [33mfalse[39m,
-      node_use_node_code_cache: [33mtrue[39m,
-      node_use_node_snapshot: [33mtrue[39m,
-      node_use_openssl: [33mtrue[39m,
-      node_use_v8_platform: [33mtrue[39m,
-      node_with_ltcg: [33mfalse[39m,
-      node_without_node_options: [33mfalse[39m,
-      openssl_fips: [32m''[39m,
-      openssl_is_fips: [33mfalse[39m,
-      ossfuzz: [33mfalse[39m,
-      shlib_suffix: [32m'83.dylib'[39m,
-      target_arch: [32m'x64'[39m,
-      v8_enable_31bit_smis_on_64bit_arch: [33m0[39m,
-      v8_enable_gdbjit: [33m0[39m,
-      v8_enable_i18n_support: [33m1[39m,
-      v8_enable_inspector: [33m1[39m,
-      v8_enable_lite_mode: [33m0[39m,
-      v8_enable_object_print: [33m1[39m,
-      v8_enable_pointer_compression: [33m0[39m,
-      v8_no_strict_aliasing: [33m1[39m,
-      v8_optimized_debug: [33m1[39m,
-      v8_promise_internal_field_count: [33m1[39m,
-      v8_random_seed: [33m0[39m,
-      v8_trace_maps: [33m0[39m,
-      v8_use_siphash: [33m1[39m,
-      want_separate_host_toolset: [33m0[39m,
-      xcode_version: [32m'11.0'[39m
-    }
-  },
-  dlopen: [36m[Function: dlopen][39m,
-  uptime: [36m[Function: uptime][39m,
-  _getActiveRequests: [36m[Function: _getActiveRequests][39m,
-  _getActiveHandles: [36m[Function: _getActiveHandles][39m,
-  reallyExit: [36m[Function: reallyExit][39m,
-  _kill: [36m[Function: _kill][39m,
-  hrtime: [Function: hrtime] { bigint: [36m[Function: hrtimeBigInt][39m },
-  cpuUsage: [36m[Function: cpuUsage][39m,
-  resourceUsage: [36m[Function: resourceUsage][39m,
-  memoryUsage: [36m[Function: memoryUsage][39m,
-  kill: [36m[Function: kill][39m,
-  exit: [36m[Function: exit][39m,
-  openStdin: [36m[Function (anonymous)][39m,
-  getuid: [36m[Function: getuid][39m,
-  geteuid: [36m[Function: geteuid][39m,
-  getgid: [36m[Function: getgid][39m,
-  getegid: [36m[Function: getegid][39m,
-  getgroups: [36m[Function: getgroups][39m,
-  allowedNodeEnvironmentFlags: [36m[Getter/Setter][39m,
-  assert: [36m[Function: deprecated][39m,
-  features: {
-    inspector: [33mtrue[39m,
-    debug: [33mfalse[39m,
-    uv: [33mtrue[39m,
-    ipv6: [33mtrue[39m,
-    tls_alpn: [33mtrue[39m,
-    tls_sni: [33mtrue[39m,
-    tls_ocsp: [33mtrue[39m,
-    tls: [33mtrue[39m,
-    cached_builtins: [33mtrue[39m
-  },
-  _fatalException: [36m[Function (anonymous)][39m,
-  setUncaughtExceptionCaptureCallback: [36m[Function: setUncaughtExceptionCaptureCallback][39m,
-  hasUncaughtExceptionCaptureCallback: [36m[Function: hasUncaughtExceptionCaptureCallback][39m,
-  emitWarning: [36m[Function: emitWarning][39m,
-  nextTick: [36m[Function: nextTick][39m,
-  _tickCallback: [36m[Function: runNextTicks][39m,
-  _debugProcess: [36m[Function: _debugProcess][39m,
-  _debugEnd: [36m[Function: _debugEnd][39m,
-  _startProfilerIdleNotifier: [36m[Function (anonymous)][39m,
-  _stopProfilerIdleNotifier: [36m[Function (anonymous)][39m,
-  stdout: [36m[Getter][39m,
-  stdin: [36m[Getter][39m,
-  stderr: [36m[Getter][39m,
-  abort: [36m[Function: abort][39m,
-  umask: [36m[Function: wrappedUmask][39m,
-  chdir: [36m[Function: wrappedChdir][39m,
-  cwd: [36m[Function: wrappedCwd][39m,
-  initgroups: [36m[Function: initgroups][39m,
-  setgroups: [36m[Function: setgroups][39m,
-  setegid: [36m[Function (anonymous)][39m,
-  seteuid: [36m[Function (anonymous)][39m,
-  setgid: [36m[Function (anonymous)][39m,
-  setuid: [36m[Function (anonymous)][39m,
-  env: {
-    TMPDIR: [32m'/var/folders/8c/947r6_k96s7cp7zxpwjs1x3h0000gp/T/'[39m,
-    __CFBundleIdentifier: [32m'com.apple.Terminal'[39m,
-    XPC_FLAGS: [32m'0x0'[39m,
-    TERM: [32m'xterm-256color'[39m,
-    SSH_AUTH_SOCK: [32m'/private/tmp/com.apple.launchd.3MK0kxoCqq/Listeners'[39m,
-    XPC_SERVICE_NAME: [32m'0'[39m,
-    TERM_PROGRAM: [32m'Apple_Terminal'[39m,
-    TERM_PROGRAM_VERSION: [32m'440'[39m,
-    TERM_SESSION_ID: [32m'2173CE04-8F3D-4AC1-93BC-36D600115CC9'[39m,
-    SHELL: [32m'/bin/zsh'[39m,
-    HOME: [32m'/Users/alexsatur'[39m,
-    LOGNAME: [32m'alexsatur'[39m,
-    USER: [32m'alexsatur'[39m,
-    PATH: [32m'/usr/local/opt/node@14/bin:/Users/alexsatur/.jenv/shims:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/node@14/bin:/Users/alexsatur/.nvm/versions/node/v14.17.6/bin:/Users/alexsatur/.jenv/shims:/usr/local/opt/gnu-sed/libexec/gnubin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/atom:/usr/local/mongodb/bin:/usr/local/opt/gnu-sed/libexec/gnubin:/Library/Apple/usr/bin:/Users/alexsatur/kafka_2.13-2.8.0/bin:/Users/alexsatur/bin:/Users/alexsatur/kafka_2.13-2.8.0/bin:/Users/alexsatur/bin'[39m,
-    SHLVL: [32m'2'[39m,
-    PWD: [32m'/Users/alexsatur/desktop/coding-challenges/12'[39m,
-    OLDPWD: [32m'/Users/alexsatur/desktop/coding-challenges/12'[39m,
-    DOCKER_FORMAT: [32m'\\nID\\t{{.ID}}\\nIMAGE\\t{{.Image}}\\nCOMMAND\\t{{.Command}}\\nCREATED\\t{{.RunningFor}}\\nSTATUS\\t{{.Status}}\\nPORTS\\t{{.Ports}}\\nNAMES\\t{{.Names}}\\n'[39m,
-    GITHUB_ACTOR: [32m'alexatand'[39m,
-    GITHUB_TOKEN: [32m'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'[39m,
-    NPM_TOKEN: [32m'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'[39m,
-    SPACESHIP_VERSION: [32m'3.14.1'[39m,
-    SPACESHIP_ROOT: [32m'/usr/local/Cellar/spaceship/3.14.1/libexec'[39m,
-    JENV_SHELL: [32m'zsh'[39m,
-    JENV_LOADED: [32m'1'[39m,
-    NVM_DIR: [32m'/Users/alexsatur/.nvm'[39m,
-    NVM_CD_FLAGS: [32m'-q'[39m,
-    NVM_BIN: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/bin'[39m,
-    NVM_INC: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/include/node'[39m,
-    SCRIPT: [32m'typescript'[39m,
-    LANG: [32m'en_GB.UTF-8'[39m,
-    _: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/bin/node'[39m,
-    __CF_USER_TEXT_ENCODING: [32m'0x1F6:0:2'[39m
-  },
-  title: [32m'node'[39m,
-  argv: [
-    [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/bin/node'[39m,
-    [32m'/Users/alexsatur/Desktop/coding-challenges/12/script'[39m,
-    [32m'alex'[39m
-  ],
-  execArgv: [],
-  pid: [33m81056[39m,
-  ppid: [33m80052[39m,
-  execPath: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/bin/node'[39m,
-  debugPort: [33m9229[39m,
-  argv0: [32m'node'[39m,
-  _preload_modules: [],
-  mainModule: Module {
-    id: [32m'.'[39m,
-    path: [32m'/Users/alexsatur/Desktop/coding-challenges/12'[39m,
-    exports: {},
-    parent: [1mnull[22m,
-    filename: [32m'/Users/alexsatur/Desktop/coding-challenges/12/script.js'[39m,
-    loaded: [33mfalse[39m,
-    children: [],
-    paths: [
-      [32m'/Users/alexsatur/Desktop/coding-challenges/12/node_modules'[39m,
-      [32m'/Users/alexsatur/Desktop/coding-challenges/node_modules'[39m,
-      [32m'/Users/alexsatur/Desktop/node_modules'[39m,
-      [32m'/Users/alexsatur/node_modules'[39m,
-      [32m'/Users/node_modules'[39m,
-      [32m'/node_modules'[39m
-    ]
-  },
-  [[32mSymbol(kCapture)[39m]: [33mfalse[39m
-}
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script alex[?2004l
-{
-  TMPDIR: [32m'/var/folders/8c/947r6_k96s7cp7zxpwjs1x3h0000gp/T/'[39m,
-  __CFBundleIdentifier: [32m'com.apple.Terminal'[39m,
-  XPC_FLAGS: [32m'0x0'[39m,
-  TERM: [32m'xterm-256color'[39m,
-  SSH_AUTH_SOCK: [32m'/private/tmp/com.apple.launchd.3MK0kxoCqq/Listeners'[39m,
-  XPC_SERVICE_NAME: [32m'0'[39m,
-  TERM_PROGRAM: [32m'Apple_Terminal'[39m,
-  TERM_PROGRAM_VERSION: [32m'440'[39m,
-  TERM_SESSION_ID: [32m'2173CE04-8F3D-4AC1-93BC-36D600115CC9'[39m,
-  SHELL: [32m'/bin/zsh'[39m,
-  HOME: [32m'/Users/alexsatur'[39m,
-  LOGNAME: [32m'alexsatur'[39m,
-  USER: [32m'alexsatur'[39m,
-  PATH: [32m'/usr/local/opt/node@14/bin:/Users/alexsatur/.jenv/shims:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/node@14/bin:/Users/alexsatur/.nvm/versions/node/v14.17.6/bin:/Users/alexsatur/.jenv/shims:/usr/local/opt/gnu-sed/libexec/gnubin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/atom:/usr/local/mongodb/bin:/usr/local/opt/gnu-sed/libexec/gnubin:/Library/Apple/usr/bin:/Users/alexsatur/kafka_2.13-2.8.0/bin:/Users/alexsatur/bin:/Users/alexsatur/kafka_2.13-2.8.0/bin:/Users/alexsatur/bin'[39m,
-  SHLVL: [32m'2'[39m,
-  PWD: [32m'/Users/alexsatur/desktop/coding-challenges/12'[39m,
-  OLDPWD: [32m'/Users/alexsatur/desktop/coding-challenges/12'[39m,
-  DOCKER_FORMAT: [32m'\\nID\\t{{.ID}}\\nIMAGE\\t{{.Image}}\\nCOMMAND\\t{{.Command}}\\nCREATED\\t{{.RunningFor}}\\nSTATUS\\t{{.Status}}\\nPORTS\\t{{.Ports}}\\nNAMES\\t{{.Names}}\\n'[39m,
-  GITHUB_ACTOR: [32m'alexatand'[39m,
-  GITHUB_TOKEN: [32m'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'[39m,
-  NPM_TOKEN: [32m'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'[39m,
-  SPACESHIP_VERSION: [32m'3.14.1'[39m,
-  SPACESHIP_ROOT: [32m'/usr/local/Cellar/spaceship/3.14.1/libexec'[39m,
-  JENV_SHELL: [32m'zsh'[39m,
-  JENV_LOADED: [32m'1'[39m,
-  NVM_DIR: [32m'/Users/alexsatur/.nvm'[39m,
-  NVM_CD_FLAGS: [32m'-q'[39m,
-  NVM_BIN: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/bin'[39m,
-  NVM_INC: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/include/node'[39m,
-  SCRIPT: [32m'typescript'[39m,
-  LANG: [32m'en_GB.UTF-8'[39m,
-  _: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/bin/node'[39m,
-  __CF_USER_TEXT_ENCODING: [32m'0x1F6:0:2'[39m
-}
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script alex [90mx[39m [39m [90mex[39m [39m [39m [90mlex[39m [39m [39m [39m [90malex[39m[39m [39m [39m [39m [90m alex[39m[39m.[39m [39m [39m [39m j s alex[?2004l
-{
-  TMPDIR: [32m'/var/folders/8c/947r6_k96s7cp7zxpwjs1x3h0000gp/T/'[39m,
-  __CFBundleIdentifier: [32m'com.apple.Terminal'[39m,
-  XPC_FLAGS: [32m'0x0'[39m,
-  TERM: [32m'xterm-256color'[39m,
-  SSH_AUTH_SOCK: [32m'/private/tmp/com.apple.launchd.3MK0kxoCqq/Listeners'[39m,
-  XPC_SERVICE_NAME: [32m'0'[39m,
-  TERM_PROGRAM: [32m'Apple_Terminal'[39m,
-  TERM_PROGRAM_VERSION: [32m'440'[39m,
-  TERM_SESSION_ID: [32m'2173CE04-8F3D-4AC1-93BC-36D600115CC9'[39m,
-  SHELL: [32m'/bin/zsh'[39m,
-  HOME: [32m'/Users/alexsatur'[39m,
-  LOGNAME: [32m'alexsatur'[39m,
-  USER: [32m'alexsatur'[39m,
-  PATH: [32m'/usr/local/opt/node@14/bin:/Users/alexsatur/.jenv/shims:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/node@14/bin:/Users/alexsatur/.nvm/versions/node/v14.17.6/bin:/Users/alexsatur/.jenv/shims:/usr/local/opt/gnu-sed/libexec/gnubin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/atom:/usr/local/mongodb/bin:/usr/local/opt/gnu-sed/libexec/gnubin:/Library/Apple/usr/bin:/Users/alexsatur/kafka_2.13-2.8.0/bin:/Users/alexsatur/bin:/Users/alexsatur/kafka_2.13-2.8.0/bin:/Users/alexsatur/bin'[39m,
-  SHLVL: [32m'2'[39m,
-  PWD: [32m'/Users/alexsatur/desktop/coding-challenges/12'[39m,
-  OLDPWD: [32m'/Users/alexsatur/desktop/coding-challenges/12'[39m,
-  DOCKER_FORMAT: [32m'\\nID\\t{{.ID}}\\nIMAGE\\t{{.Image}}\\nCOMMAND\\t{{.Command}}\\nCREATED\\t{{.RunningFor}}\\nSTATUS\\t{{.Status}}\\nPORTS\\t{{.Ports}}\\nNAMES\\t{{.Names}}\\n'[39m,
-  GITHUB_ACTOR: [32m'alexatand'[39m,
-  GITHUB_TOKEN: [32m'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'[39m,
-  NPM_TOKEN: [32m'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'[39m,
-  SPACESHIP_VERSION: [32m'3.14.1'[39m,
-  SPACESHIP_ROOT: [32m'/usr/local/Cellar/spaceship/3.14.1/libexec'[39m,
-  JENV_SHELL: [32m'zsh'[39m,
-  JENV_LOADED: [32m'1'[39m,
-  NVM_DIR: [32m'/Users/alexsatur/.nvm'[39m,
-  NVM_CD_FLAGS: [32m'-q'[39m,
-  NVM_BIN: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/bin'[39m,
-  NVM_INC: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/include/node'[39m,
-  SCRIPT: [32m'typescript'[39m,
-  LANG: [32m'en_GB.UTF-8'[39m,
-  _: [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/bin/node'[39m,
-  __CF_USER_TEXT_ENCODING: [32m'0x1F6:0:2'[39m
-}
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script.js alex[?2004l
-[
-  [32m'/Users/alexsatur/.nvm/versions/node/v14.17.6/bin/node'[39m,
-  [32m'/Users/alexsatur/Desktop/coding-challenges/12/script.js'[39m,
-  [32m'alex'[39m
-]
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script.js alex[?2004l
-alex
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script.js alex [90mx[39m [39m [90mex[39m [39m [39m [90mlex[39m [39m [39m [39m [90malex[39m[39m [39m [39m [39m [90m alex[39m [39m [39m [39m [39m [39m [90ms alex[39m [39m [39m [39m [39m [39m [39m [90mjs alex[39m [39m [39m [39m [39m [39m [39m [39m [8D[90m.js alex[39m[8D[39m [39m [39m [39m [39m [39m [39m [39m [90malex[39m[39m1[39m [39m [39m 234[?2004l
-1234
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-1
-2
-3
-4
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-{ [32m'1'[39m: [32m'   '[39m, [32m'2'[39m: [32m'  |'[39m, [32m'3'[39m: [32m'   '[39m, [32m'4'[39m: [32m'  |'[39m, [32m'5'[39m: [32m''[39m }
-[90mundefined[39m
-[90mundefined[39m
-[90mundefined[39m
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-{ [32m'1'[39m: [32m'   '[39m, [32m'2'[39m: [32m'  |'[39m, [32m'3'[39m: [32m'   '[39m, [32m'4'[39m: [32m'  |'[39m, [32m'5'[39m: [32m''[39m }
-{ [32m'1'[39m: [32m' _ '[39m, [32m'2'[39m: [32m'  |'[39m, [32m'3'[39m: [32m' _ '[39m, [32m'4'[39m: [32m'|  '[39m, [32m'5'[39m: [32m' _ '[39m }
-[90mundefined[39m
-[90mundefined[39m
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-{ [32m'1'[39m: [32m'   '[39m, [32m'2'[39m: [32m'  |'[39m, [32m'3'[39m: [32m'   '[39m, [32m'4'[39m: [32m'  |'[39m, [32m'5'[39m: [32m''[39m }
-{ [32m'1'[39m: [32m' _ '[39m, [32m'2'[39m: [32m'  |'[39m, [32m'3'[39m: [32m' _ '[39m, [32m'4'[39m: [32m'|  '[39m, [32m'5'[39m: [32m' _ '[39m }
-{ [32m'1'[39m: [32m' _ '[39m, [32m'2'[39m: [32m'  |'[39m, [32m'3'[39m: [32m' _ '[39m, [32m'4'[39m: [32m'  |'[39m, [32m'5'[39m: [32m' _ '[39m }
-{ [32m'1'[39m: [32m'   '[39m, [32m'2'[39m: [32m'| |'[39m, [32m'3'[39m: [32m' _ '[39m, [32m'4'[39m: [32m'  |'[39m, [32m'5'[39m: [32m'   '[39m }
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-  |  | 
-[90mundefined[39m
-[90mundefined[39m
-[90mundefined[39m
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-[ [32m'2'[39m ]
-[ [32m'3'[39m ]
-[ [32m'4'[39m ]
-/Users/alexsatur/Desktop/coding-challenges/12/script.js:16
-  console.log(number[x].split())
-                        ^
-
-TypeError: Cannot read property 'split' of undefined
-    at /Users/alexsatur/Desktop/coding-challenges/12/script.js:16:25
-    at Array.map (<anonymous>)
-    at Object.<anonymous> (/Users/alexsatur/Desktop/coding-challenges/12/script.js:15:18)
-[90m    at Module._compile (internal/modules/cjs/loader.js:1072:14)[39m
-[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)[39m
-[90m    at Module.load (internal/modules/cjs/loader.js:937:32)[39m
-[90m    at Function.Module._load (internal/modules/cjs/loader.js:778:12)[39m
-[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)[39m
-[90m    at internal/main/run_main_module.js:17:47[39m
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[31m➜ [0m[31m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-[ [32m'2'[39m ]
-[ [32m'3'[39m ]
-[ [32m'4'[39m ]
-/Users/alexsatur/Desktop/coding-challenges/12/script.js:16
-  console.log(number[x].split(''))
-                        ^
-
-TypeError: Cannot read property 'split' of undefined
-    at /Users/alexsatur/Desktop/coding-challenges/12/script.js:16:25
-    at Array.map (<anonymous>)
-    at Object.<anonymous> (/Users/alexsatur/Desktop/coding-challenges/12/script.js:15:18)
-[90m    at Module._compile (internal/modules/cjs/loader.js:1072:14)[39m
-[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)[39m
-[90m    at Module.load (internal/modules/cjs/loader.js:937:32)[39m
-[90m    at Function.Module._load (internal/modules/cjs/loader.js:778:12)[39m
-[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)[39m
-[90m    at internal/main/run_main_module.js:17:47[39m
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[31m➜ [0m[31m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-[ [32m'2'[39m ]
-[ [32m'3'[39m ]
-[ [32m'4'[39m ]
-/Users/alexsatur/Desktop/coding-challenges/12/script.js:16
-  console.log(number[x].split(''))
-                        ^
-
-TypeError: Cannot read property 'split' of undefined
-    at /Users/alexsatur/Desktop/coding-challenges/12/script.js:16:25
-    at Array.map (<anonymous>)
-    at Object.<anonymous> (/Users/alexsatur/Desktop/coding-challenges/12/script.js:15:18)
-[90m    at Module._compile (internal/modules/cjs/loader.js:1072:14)[39m
-[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)[39m
-[90m    at Module.load (internal/modules/cjs/loader.js:937:32)[39m
-[90m    at Function.Module._load (internal/modules/cjs/loader.js:778:12)[39m
-[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)[39m
-[90m    at internal/main/run_main_module.js:17:47[39m
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[31m➜ [0m[31m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-[ [32m'2'[39m ]
-[ [32m'3'[39m ]
-[ [32m'4'[39m ]
-/Users/alexsatur/Desktop/coding-challenges/12/script.js:16
-  console.log(number[x].split(''))
-                        ^
-
-TypeError: Cannot read property 'split' of undefined
-    at /Users/alexsatur/Desktop/coding-challenges/12/script.js:16:25
-    at Array.map (<anonymous>)
-    at Object.<anonymous> (/Users/alexsatur/Desktop/coding-challenges/12/script.js:15:18)
-[90m    at Module._compile (internal/modules/cjs/loader.js:1072:14)[39m
-[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)[39m
-[90m    at Module.load (internal/modules/cjs/loader.js:937:32)[39m
-[90m    at Function.Module._load (internal/modules/cjs/loader.js:778:12)[39m
-[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)[39m
-[90m    at internal/main/run_main_module.js:17:47[39m
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[31m➜ [0m[31m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-[ [32m'2'[39m ]
-[ [32m'3'[39m ]
-[ [32m'4'[39m ]
-/Users/alexsatur/Desktop/coding-challenges/12/script.js:16
-  console.log(number[x].split(''))
-                        ^
-
-TypeError: Cannot read property 'split' of undefined
-    at /Users/alexsatur/Desktop/coding-challenges/12/script.js:16:25
-    at Array.map (<anonymous>)
-    at Object.<anonymous> (/Users/alexsatur/Desktop/coding-challenges/12/script.js:15:18)
-[90m    at Module._compile (internal/modules/cjs/loader.js:1072:14)[39m
-[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)[39m
-[90m    at Module.load (internal/modules/cjs/loader.js:937:32)[39m
-[90m    at Function.Module._load (internal/modules/cjs/loader.js:778:12)[39m
-[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)[39m
-[90m    at internal/main/run_main_module.js:17:47[39m
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[31m➜ [0m[31m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-[
-  [33m0[39m, [33m0[39m, [33m1[39m, [33m0[39m,
-  [33m0[39m, [33m1[39m, [33m0[39m
-]
-[90mundefined[39m
-[90mundefined[39m
-[90mundefined[39m
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-/Users/alexsatur/Desktop/coding-challenges/12/script.js:19
-})
-^
-
-SyntaxError: Unexpected token '}'
-[90m    at wrapSafe (internal/modules/cjs/loader.js:988:16)[39m
-[90m    at Module._compile (internal/modules/cjs/loader.js:1036:27)[39m
-[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)[39m
-[90m    at Module.load (internal/modules/cjs/loader.js:937:32)[39m
-[90m    at Function.Module._load (internal/modules/cjs/loader.js:778:12)[39m
-[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)[39m
-[90m    at internal/main/run_main_module.js:17:47[39m
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[31m➜ [0m[31m[39m[1m[0m[K[?2004hnode script 1234[?2004l
- _ 
-|_|
-|_|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-[ [32m'   '[39m, [32m'  |'[39m, [32m'  |'[39m ]
-[90mundefined[39m
-[90mundefined[39m
-[90mundefined[39m
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-[ [32m'   '[39m, [32m'  |'[39m, [32m'  |'[39m ]
-[90mundefined[39m
-[90mundefined[39m
-[90mundefined[39m
-1234
-undefinedundefinedundefinedundefined
-undefinedundefinedundefinedundefined
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-[ [32m'   '[39m, [32m'  |'[39m, [32m'  |'[39m ]
-[90mundefined[39m
-[90mundefined[39m
-[90mundefined[39m
-1234
-undefinedundefinedundefinedundefined
-undefinedundefinedundefinedundefined
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-1234
-undefinedundefinedundefinedundefined
-undefinedundefinedundefinedundefined
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-1111
-2222
-3333
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-1234
-1111
-2222
-3333
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-1234
-1111
-2222
-3333
-====
-     
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-1234
-undefinedundefinedundefinedundefined
-   ,  |,  |   ,  |,  |   ,  |,  |   ,  |,  |
-undefinedundefinedundefinedundefined
-====
-     
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-1234
-1
-2
-3
-4
-undefinedundefinedundefinedundefined
-   ,  |,  |   ,  |,  |   ,  |,  |   ,  |,  |
-undefinedundefinedundefinedundefined
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-1234
-1
-{ [32m'1'[39m: [32m'undefined'[39m, [32m'2'[39m: [32m''[39m, [32m'3'[39m: [32m''[39m }
-2
-{ [32m'1'[39m: [32m'undefinedundefined'[39m, [32m'2'[39m: [32m'   ,  |,  |'[39m, [32m'3'[39m: [32m'undefined'[39m }
-3
-{
-  [32m'1'[39m: [32m'undefinedundefinedundefined'[39m,
-  [32m'2'[39m: [32m'   ,  |,  |   ,  |,  |'[39m,
-  [32m'3'[39m: [32m'undefinedundefined'[39m
-}
-4
-{
-  [32m'1'[39m: [32m'undefinedundefinedundefinedundefined'[39m,
-  [32m'2'[39m: [32m'   ,  |,  |   ,  |,  |   ,  |,  |'[39m,
-  [32m'3'[39m: [32m'undefinedundefinedundefined'[39m
-}
-undefinedundefinedundefinedundefined
-   ,  |,  |   ,  |,  |   ,  |,  |   ,  |,  |
-undefinedundefinedundefinedundefined
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-1234
-1
-{ [32m'1'[39m: [32m'undefined'[39m, [32m'2'[39m: [32m'   ,  |,  |'[39m, [32m'3'[39m: [32m'undefined'[39m }
-2
-{
-  [32m'1'[39m: [32m'undefinedundefined'[39m,
-  [32m'2'[39m: [32m'   ,  |,  |   ,  |,  |'[39m,
-  [32m'3'[39m: [32m'undefinedundefined'[39m
-}
-3
-{
-  [32m'1'[39m: [32m'undefinedundefinedundefined'[39m,
-  [32m'2'[39m: [32m'   ,  |,  |   ,  |,  |   ,  |,  |'[39m,
-  [32m'3'[39m: [32m'undefinedundefinedundefined'[39m
-}
-4
-{
-  [32m'1'[39m: [32m'undefinedundefinedundefinedundefined'[39m,
-  [32m'2'[39m: [32m'   ,  |,  |   ,  |,  |   ,  |,  |   ,  |,  |'[39m,
-  [32m'3'[39m: [32m'undefinedundefinedundefinedundefined'[39m
-}
-undefinedundefinedundefinedundefined
-   ,  |,  |   ,  |,  |   ,  |,  |   ,  |,  |
-undefinedundefinedundefinedundefined
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-1234
-1
-/Users/alexsatur/Desktop/coding-challenges/12/script.js:17
-  rows[1] += numberPattern[x][0]
-                           ^
-
-ReferenceError: x is not defined
-    at /Users/alexsatur/Desktop/coding-challenges/12/script.js:17:28
-    at Array.map (<anonymous>)
-    at Object.<anonymous> (/Users/alexsatur/Desktop/coding-challenges/12/script.js:15:19)
-[90m    at Module._compile (internal/modules/cjs/loader.js:1072:14)[39m
-[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)[39m
-[90m    at Module.load (internal/modules/cjs/loader.js:937:32)[39m
-[90m    at Function.Module._load (internal/modules/cjs/loader.js:778:12)[39m
-[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)[39m
-[90m    at internal/main/run_main_module.js:17:47[39m
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[31m➜ [0m[31m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-1234
-1
-{ [32m'1'[39m: [32m'   '[39m, [32m'2'[39m: [32m'  |'[39m, [32m'3'[39m: [32m'  |'[39m }
-2
-/Users/alexsatur/Desktop/coding-challenges/12/script.js:17
-  rows[1] += numberPattern[number][0]
-                                  ^
-
-TypeError: Cannot read property '0' of undefined
-    at /Users/alexsatur/Desktop/coding-challenges/12/script.js:17:35
-    at Array.map (<anonymous>)
-    at Object.<anonymous> (/Users/alexsatur/Desktop/coding-challenges/12/script.js:15:19)
-[90m    at Module._compile (internal/modules/cjs/loader.js:1072:14)[39m
-[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)[39m
-[90m    at Module.load (internal/modules/cjs/loader.js:937:32)[39m
-[90m    at Function.Module._load (internal/modules/cjs/loader.js:778:12)[39m
-[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)[39m
-[90m    at internal/main/run_main_module.js:17:47[39m
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[31m➜ [0m[31m[39m[1m[0m[K[?2004hnode script 1234 [90m4[39m [39m [90m34[39m [39m [39m [90m234[39m[39m [39m [39m [?2004l
-1
-1
-{ [32m'1'[39m: [32m'   '[39m, [32m'2'[39m: [32m'  |'[39m, [32m'3'[39m: [32m'  |'[39m }
-   
-  |
-  |
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1[?2004l
-   
-  |
-  |
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 12[90m34[39m[39m [39m [?2004l
-    _ 
-  | _|
-  ||_ 
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 123[90m4[39m[39m [?2004l
-    _  _ 
-  | _| _|
-  ||_  _|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234[?2004l
-    _  _    
-  | _| _||_|
-  ||_  _|  |
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234 [90m4[39m[39m5[?2004l
-    _  _  _ 
-  | _| _||_ 
-  ||_  _| _|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1235 [90m5[39m[39m6[?2004l
-    _  _  _ 
-  | _| _||_ 
-  ||_  _||_|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1236 [90m6[39m[39m4567890[?2004l
-    _  _     _  _  _  _  _  _ 
-  | _| _||_||_ |_   ||_| _|| |
-  ||_  _|  | _||_|  ||_| _||_|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234567890[?2004l
-    _  _     _  _  _  _  _  _ 
-  | _| _||_||_ |_   ||_||_|| |
-  ||_  _|  | _||_|  ||_| _||_|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234567890 [90m0[39m [39m [90m90[39m [39m [39m [90m890[39m [39m [39m [39m [90m7890[39m [39m [39m [39m [39m [90m67890[39m [39m [39m [39m [39m [39m [90m567890[39m [39m [39m [39m [39m [39m [39m [90m4567890[39m [39m [39m [39m [39m [39m [39m [39m [8D[90m34567890[39m[8D [39m [39m [39m [39m [39m [39m [39m [39m [9D[90m234567890[39m[9D [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[90m1234567890[39m[10D[39m1[39m9[39m [39m [39m [39m [39m [39m [39m [39m [8D2039374665478907654356123[26D234567890                 [17D[?2004l
-    _  _     _  _  _  _  _  _ 
-  | _| _||_||_ |_   ||_||_|| |
-  ||_  _|  | _||_|  ||_| _||_|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234567890[?2004l
-    _  _     _  _  _  _  _  _ 
-  | _| _||_||_ |_   ||_||_|| |
-  ||_  _|  | _||_|  ||_| _||_|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234567890[?2004l
-    _  _     _  _  _  _  _  _ 
-  | _| _||_||_ |_   ||_||_|| |
-  ||_  _|  | _||_|  ||_| _||_|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234567890[?2004l
-1
-2
-3
-4
-5
-6
-7
-8
-9
-0
-    _  _     _  _  _  _  _  _ 
-  | _| _||_||_ |_   ||_||_|| |
-  ||_  _|  | _||_|  ||_| _||_|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234567890[?2004l
-1
-2
-3
-4
-5
-6
-7
-8
-9
-0
-    _  _     _  _  _  _  _  _ 
-  | _| _||_||_ |_   ||_||_|| |
-  ||_  _|  | _||_|  ||_| _||_|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234567890 [90m0[39m [39m [90m90[39m [39m [39m [90m890[39m [39m [39m [39m [90m7890[39m [39m [39m [39m [39m [90m67890[39m [39m [39m [39m [39m [39m [90m567890[39m [39m [39m [39m [39m [39m [39m [90m4567890[39m [39m [39m [39m [39m [39m [39m [39m [8D[90m34567890[39m[8D [39m [39m [39m [39m [39m [39m [39m [39m [9D[90m234567890[39m[9D [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[90m1234567890[39m[10D[39m0[39m [39m [39m [39m [39m [39m [39m [39m [39m [9D987654321234567890987654321[?2004l
-0
-9
-8
-7
-6
-5
-4
-3
-2
-1
-2
-3
-4
-5
-6
-7
-8
-9
-0
-9
-8
-7
-6
-5
-4
-3
-2
-1
- _  _  _  _  _  _     _  _     _  _     _  _  _  _  _  _  _  _  _  _  _     _  _    
-| ||_||_|  ||_ |_ |_| _| _|  | _| _||_||_ |_   ||_||_|| ||_||_|  ||_ |_ |_| _| _|  |
-|_| _||_|  ||_| _|  | _||_   ||_  _|  | _||_|  ||_| _||_| _||_|  ||_| _|  | _||_   |
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 0987654321234567890987654321 [90m1[39m [39m [90m21[39m [39m [39m [90m321[39m [39m [39m [39m [90m4321[39m [39m [39m [39m [39m [90m54321[39m [39m [39m [39m [39m [39m [90m654321[39m [39m [39m [39m [39m [39m [39m [90m7654321[39m [39m [39m [39m [39m [39m [39m [39m [8D[90m87654321[39m[8D [39m [39m [39m [39m [39m [39m [39m [39m [9D[90m987654321[39m[9D [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[90m0987654321[39m[10D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90m90987654321[39m[11D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[90m890987654321[39m[12D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[90m7890987654321[39m[13D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[?2004l
-0
-9
-8
-7
-6
-5
-4
-3
-2
-1
-2
-3
-4
-5
-6
- _  _  _  _  _  _     _  _     _  _     _  _ 
-| ||_||_|  ||_ |_ |_| _| _|  | _| _||_||_ |_ 
-|_| _||_|  ||_| _|  | _||_   ||_  _|  | _||_|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 098765432123456[?2004l
- _  _  _  _  _  _     _  _     _  _     _  _ 
-| ||_||_|  ||_ |_ |_| _| _|  | _| _||_||_ |_ 
-|_| _||_|  ||_| _|  | _||_   ||_  _|  | _||_|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 098765432123456 [90m6[39m [39m [90m56[39m [39m [39m [90m456[39m [39m [39m [39m [90m3456[39m [39m [39m [39m [39m [90m23456[39m [39m [39m [39m [39m [39m [90m123456[39m [39m [39m [39m [39m [39m [39m [90m2123456[39m [39m [39m [39m [39m [39m [39m [39m [8D[90m32123456[39m[8D [39m [39m [39m [39m [39m [39m [39m [39m [9D[90m432123456[39m[9D [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[90m5432123456[39m[10D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90m65432123456[39m[11D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[90m765432123456[39m[12D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[90m8765432123456[39m[13D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[90m98765432123456[39m[14D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[?2004l
- _ 
-| |
-|_|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 0123[?2004l
- _     _  _ 
-| |  | _| _|
-|_|  ||_  _|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 0123 [90m3[39m [39m [90m23[39m [39m [39m [90m123[39m [39m [39m [39m [90m0123[39m[39m8[39m [39m [39m 991[?2004l
- _  _  _    
-|_||_||_|  |
-|_| _| _|  |
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 8991 [90m1[39m [39m [90m91[39m [39m [39m [90m991[39m [39m [39m [39m [90m8991[39m[39m1[39m [39m [39m [90m234567890[39m[9D[39m2[39m3[39m4[39m5[39m6[39m7[39m8[39m9[39m0[?2004l
-    _  _     _  _  _  _  _  _ 
-  | _| _||_||_ |_   ||_||_|| |
-  ||_  _|  | _||_|  ||_| _||_|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 1234567890 [90m0[39m [39m [90m90[39m [39m [39m [90m890[39m [39m [39m [39m [90m7890[39m [39m [39m [39m [39m [90m67890[39m [39m [39m [39m [39m [39m [90m567890[39m [39m [39m [39m [39m [39m [39m [90m4567890[39m[39m [39m [39m [39m [39m [39m [39m [?2004l
-=========
-    _  _ 
-  | _| _|
-  ||_  _|
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004hnode script 123 [90m3[39m [39m [90m23[39m [39m [39m [90m123[39m[39m [39m [39m [90m 123[39m[39m7[39m [39m [39m 1  [90m 123[39m[39m [39m7[39m [39m 1[?2004l
- _    
-  |  |
-  |  |
-[1m[7m%[27m[1m[0m                                                                         ]7;file://Alexs-MacBook-Pro.local/Users/alexsatur/desktop/coding-challenges/12[0m[27m[24m[J
-[1m[0m[1m[36mcoding-challenges/12[0m[36m[39m[1m [0m[1mon [0m[1m[37m[1m[37m[0m[37m[1m[37m[35m main[0m[35m[39m[1m[0m[1m[0m[1m[31m [!?][0m[31m[39m[1m[0m[0m[39m[1m [0m[1mvia [0m[1m[32m⬢ v14.17.6[0m[32m[39m[1m [0m
-[1m[0m[1m[32m➜ [0m[32m[39m[1m[0m[K[?2004h
