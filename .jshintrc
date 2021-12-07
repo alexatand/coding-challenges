@@ -1,0 +1,10 @@
+{
+  "esversion": 6,
+  "trailingcomma": false,
+  "undef": true,
+  "unused": true,
+  "asi": true,
+  "node": true,
+  "latedef": true,
+  "quotmark": "single"
+}
