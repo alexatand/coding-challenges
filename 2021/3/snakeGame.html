@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<canvas id="gameCanvas" width="400" height="400"></canvas>
+
+<style>
+      #snakeboard {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+<script>
+
+  const board_border = 'black';
+  const board_background = "white";
+  const snake_col = 'lightblue';
+  const snake_border = 'darkblue';
+
+  let snake = [  {x: 200, y: 200},  {x: 190, y: 200},  {x: 180, y: 200},  {x: 170, y: 200},  {x: 160, y: 200},];
+
+  const snakeBoard = document.getElementById("gameCanvas")
+  const snakeBoard_ctx = gameCanvas.getContext("2d")
+
+  function main(){
+    clearCavnas();
+    drawSnake()
+  }
+
+  main()
+
+  function clearCavnas(){
+    snakeBoard_ctx.fillStyle = board_background
+    snakeBoard_ctx.strokestyle = board_border
+    snakeBoard_ctx.fillRect(0, 0, snakeBoard.width, snakeBoard.height);
+    snakeBoard_ctx.strokeRect(0, 0, snakeBoard.width, snakeBoard.height);
+  }
+
+  function drawSnakePart(snakePart){
+    snakeBoard_ctx.fillStyle = "lightblue"
+    snakeBoard_ctx.strokestyle = "darkblue"
+    snakeBoard_ctx.fillRect(snakePart.x, snakePart.y, 10,10)
+    snakeBoard_ctx.strokeRect(snakePart.x, snakePart.y, 10,10)
+  }
+
+  function drawSnake(){
+    snake.forEach(drawSnakePart)
+  }
+
+</script>
+  </body>
+
+</html>
